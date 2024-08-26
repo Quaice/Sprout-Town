@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - board-piece
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - board-piece
   - Water
   - UI
   - 
