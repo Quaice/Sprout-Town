@@ -5,7 +5,7 @@ using UnityEngine;
 public enum PieceType { tree, tomato, wheat, stone, chest }
 
 public class BoardPiece : MonoBehaviour {
-    public PieceType _type;
-    public int _scoreValue = 5;
-    public int _pieceLevel = 0;
+    public PieceType type;
+    public int scoreValue { get; private set; } = 5;
+    public int pieceLevel { get; private set; } = 0;
 }

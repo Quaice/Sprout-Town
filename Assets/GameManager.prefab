@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7414178145697954543}
   - component: {fileID: 1092145188423235819}
   - component: {fileID: 101653861538762409}
+  - component: {fileID: 4838106567166550497}
   - component: {fileID: -2962499940539373249}
   m_Layer: 0
   m_Name: GameManager
@@ -62,6 +63,19 @@ MonoBehaviour:
   - {fileID: 314598073774967661, guid: a659149ef59210c44949ee8b413dfc59, type: 3}
   - {fileID: 3388542528385413009, guid: 9a77dd8eb153f16429f8314579aae3b4, type: 3}
   - {fileID: 3453408123045039107, guid: 843239387967b414b900e717c3b86d52, type: 3}
+  _piecesOnBoard: []
+--- !u!114 &4838106567166550497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805442465592127053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f4bf0484ceeec41aeb507e1c5f0d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &-2962499940539373249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,3 +89,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mousePosition: {x: 0, y: 0}
+  mouseOverBP: 0
