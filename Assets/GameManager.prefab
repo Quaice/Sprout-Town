@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7414178145697954543}
   - component: {fileID: 1092145188423235819}
-  - component: {fileID: 3531765896858615174}
-  - component: {fileID: 6633540956033845979}
+  - component: {fileID: 101653861538762409}
+  - component: {fileID: -2962499940539373249}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -46,8 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a422c8e2499261409ddd67284d1b974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemFeeder: {fileID: 0}
---- !u!114 &3531765896858615174
+--- !u!114 &101653861538762409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,14 +55,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2805442465592127053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8735a4e149d5874fb39ebdd1aa884a4, type: 3}
+  m_Script: {fileID: 11500000, guid: 06168d8707c8f104d84b51888572824d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_objectPool:
+  _boardPiecePool:
   - {fileID: 314598073774967661, guid: a659149ef59210c44949ee8b413dfc59, type: 3}
-  - {fileID: 3453408123045039107, guid: 843239387967b414b900e717c3b86d52, type: 3}
   - {fileID: 3388542528385413009, guid: 9a77dd8eb153f16429f8314579aae3b4, type: 3}
---- !u!114 &6633540956033845979
+  - {fileID: 3453408123045039107, guid: 843239387967b414b900e717c3b86d52, type: 3}
+--- !u!114 &-2962499940539373249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,7 +71,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2805442465592127053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aff6eb082f3f684c96616df0d6ce718, type: 3}
+  m_Script: {fileID: 11500000, guid: d079a38cdd9b29e49a61a0aeda0a9129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _activeItem: {fileID: 0}
+  mousePosition: {x: 0, y: 0}
