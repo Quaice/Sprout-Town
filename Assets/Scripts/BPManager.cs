@@ -9,6 +9,7 @@ public class BPManager : MonoBehaviour {
 
     public GameObject[] _boardPiecePool;
     public List<GameObject> _piecesOnBoard = new List<GameObject>();
+    public List<GameObject> _matches = new List<GameObject>();
 
     private void Awake() {
         _bpAnimator = GetComponent<BPAnimator>();
@@ -32,7 +33,7 @@ public class BPManager : MonoBehaviour {
     }
 
     void CheckStuff(GameObject BP) {
-        List<GameObject> _matches = new List<GameObject>();
+        _matches.Clear();
         float bpX = BP.transform.position.x;
         float bpY = BP.transform.position.y;
 

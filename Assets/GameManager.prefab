@@ -64,6 +64,7 @@ MonoBehaviour:
   - {fileID: 3388542528385413009, guid: 9a77dd8eb153f16429f8314579aae3b4, type: 3}
   - {fileID: 3453408123045039107, guid: 843239387967b414b900e717c3b86d52, type: 3}
   _piecesOnBoard: []
+  _matches: []
 --- !u!114 &4838106567166550497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,6 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f4bf0484ceeec41aeb507e1c5f0d18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!114 &-2962499940539373249
 MonoBehaviour:
   m_ObjectHideFlags: 0

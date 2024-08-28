@@ -43,11 +43,8 @@ public class InputManager : MonoBehaviour {
 
     bool WithinTolerance(Vector2 v1, Vector2 v2, float tolerance = 0.5f) {
         Vector2 dif = v1 - v2;
-        if(Mathf.Abs(dif.x) <= tolerance && Mathf.Abs(dif.y) <= tolerance) {
-            return true;
-        } else {
-            return false;
-        }
+        if(Mathf.Abs(dif.x) <= tolerance && Mathf.Abs(dif.y) <= tolerance) return true;
+        return false;
     }
 
     void UpdateGridPosition() {
